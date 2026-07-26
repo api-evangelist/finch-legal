@@ -1,8 +1,18 @@
 aid: finch-legal
 name: Finch Legal
-description: 'Finch Legal is a company surfaced as a portfolio company of redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Finch Legal (Finch) is an AI-powered pre-litigation platform built for personal
+  injury law firms, combining US-based expert legal operators with AI agents to run
+  cases on autopilot from intake through demand. Its services span 24/7 bilingual
+  intake and client sign-up, insurance claim and police-report retrieval, treatment
+  tracking with client check-ins, and expert-reviewed demand-letter generation, with
+  beta capabilities for medical chronologies and litigation support. Finch writes
+  updates directly into a firm's existing case-management system rather than adding a
+  new tool, integrating with Filevine, Smokeball, Litify, Neos, SmartAdvocate, MyCase,
+  Clio, Casepeer, and Cloudlex. The company is SOC 2 certified, headquartered in New
+  York City, and backed by venture investors. Finch exposes no public developer API,
+  documentation, or SDK at this time; this profile captures its identity and security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/finch-legal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +20,55 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Legal
+- Legal Tech
+- Personal Injury
+- Legal Operations
+- Automation
+- Case Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://cdn.prod.website-files.com/66f4b6ca1558531e5e5a3575/6736790acf12bcb8064b9a00_finch-og.png
 common:
+- type: DomainSecurity
+  url: security/finch-legal-domain-security.yml
+- type: Conformance
+  url: conformance/finch-legal-conformance.yml
+- type: Compliance
+  url: https://www.finchlegal.com/
+- type: Blog
+  url: https://www.finchlegal.com/blog
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/66f4b6ca1558531e5e5a3575/697297c0420e163f0a4ed370_Privacy%20Notice%20Update_1.22.26.pdf
+- type: Careers
+  url: https://www.finchlegal.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/finchlegal
 - type: Website
   url: https://www.finchlegal.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

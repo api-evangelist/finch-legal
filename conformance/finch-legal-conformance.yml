@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.finchlegal.com/
+note: >-
+  Finch Legal publishes no public API or OpenAPI, so cross-cutting API standards
+  cannot be derived. This file captures the one compliance posture Finch states
+  publicly on its website.
+standards:
+- id: soc2
+  conforms: true
+  evidence: >-
+    Homepage security statement: "SOC 2 certified and protects all personally
+    identifiable information with enterprise-grade security controls."
+  source: https://www.finchlegal.com/
